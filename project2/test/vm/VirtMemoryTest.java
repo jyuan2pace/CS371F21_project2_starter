@@ -125,7 +125,7 @@ public class VirtMemoryTest {
         assertEquals(2048, m.getPhyMemory().writeCountDisk());
         //Code review q8: why are there 2048 disk writes?
         assertEquals(1792, m.getPhyMemory().readCountDisk());
-        //Code review q9: why are there 1792 disk writes? Why is it different from test5?
+        //Code review q9: why are there 1792 disk reads? Why is it different from test5?
 
     }
     @Test
